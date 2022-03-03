@@ -8,16 +8,20 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+   
     .showcase{
         height:auto
     }
     .showcase-text{
         text-align: center;
         margin-top: 40px;
+        animation: slideInFromTop 1s ease-in;
     }
     .showcase-form{
         justify-self: center;
         margin: auto;
+        animation: slideInFromBottom 1s ease-in;
+
     }
     .cli .grid > *:first-child{
         grid-column: 1;
@@ -30,6 +34,7 @@
     }
     .navbar .flex{
         flex-direction:column;
+        animation: slideInFromTop 1s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .navbar ul{
         padding:10px;

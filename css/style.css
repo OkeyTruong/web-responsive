@@ -73,6 +73,9 @@ header {
   grid-template-columns: 55% auto;
   gap: 30px;
 }
+.showcase-text{
+  animation: slideInFromLeft 1s ease-in;
+}
 .showcase h1 {
   font-size: 40px;
 }
@@ -87,6 +90,8 @@ header {
   padding: 40px;
   z-index: 100;
   text-transform: uppercase;
+  animation: slideInFromRight 1s ease-in;
+
 }
 .showcase::after,
 .showcase:before {
